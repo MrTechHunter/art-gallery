@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 10px;
 }
 
 .product-details-image img {
@@ -13,9 +14,20 @@
   object-fit: contain;
 }
 
+/* For screens larger than 768px (tablets and desktops) */
 @media (min-width: 768px) {
   .product-details-image img {
     width: auto;
     max-height: 500px;
+  }
+}
+
+/* For mobile devices (below 768px) */
+@media (max-width: 767px) {
+  .product-details-image img {
+    max-height: 80vh;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 16px;
   }
 }
