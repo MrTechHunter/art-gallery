@@ -13,3 +13,24 @@
     flex-flow: row nowrap;
   }
 }
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.checkout-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+.checkout-btn {
+  background-color: #4CAF50;
+  color: white;
+}
